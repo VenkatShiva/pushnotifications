@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "93076157028",
+    "project_id": "notifications-5f4bd",
+    "storage_bucket": "notifications-5f4bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93076157028:android:1465f37c6469721785a571",
+        "android_client_info": {
+          "package_name": "com.shiva.pushnotifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93076157028-ejc30d2b36a7g7rf1nvk6kfd1s7ugirc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe_RrXITZgBB-KFF6z3iw54juiYUSKBPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93076157028-ejc30d2b36a7g7rf1nvk6kfd1s7ugirc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
