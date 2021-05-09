@@ -11,6 +11,13 @@ import {View, Text, Platform} from 'react-native';
 import firebase from 'react-native-firebase';
 
 const App = () => {
+  const getToken = async () => {
+    const firebaseToken = await firebase.messaging().getToken();
+    console.log('Firebase token-->', firebaseToken);
+    if (firebaseToken) {
+      firebase.messaging().subscribeToTopic('topic');
+    }
+  };
   const createChannel = () => {
     const channel = new firebase.notifications.Android.Channel(
       'channelId',
@@ -43,6 +50,7 @@ const App = () => {
     });
   };
   useEffect(() => {
+    getToken();
     createChannel();
     notificationListener();
   }, []);
